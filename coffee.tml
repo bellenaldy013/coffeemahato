@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kopi Mahato - Coffee Mahato</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" href="images/favicon.png" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Coffee Mahato</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="coffee.html" class="active">Kopi Kami</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-coffee">
+    <div class="container">
+      <h1>Kopi Mahato</h1>
+      <p>Kopi terbaik kami dari biji pilihan dan racikan istimewa.</p>
+    </div>
+  </section>
+
+  <section class="coffee-showcase container">
+    <div class="coffee-card">
+      <img src="images/osaka-mahato.jpg" alt="Osaka Mahato"
