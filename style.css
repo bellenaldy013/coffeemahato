@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00688B;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+.nav-links li a:hover {
+  color: #00688B;
+}
+
+.hero {
+  background: url('../images/rooftop.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero .btn, .btn {
+  background: #00688B;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #00688B;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  width: 200px;
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 60px;
+}
