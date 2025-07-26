@@ -600,7 +600,14 @@
                     menu.classList.add('hidden');
                 }
             });
+             <script>
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
 
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+</script>
             // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
